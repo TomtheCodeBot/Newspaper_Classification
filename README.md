@@ -1,7 +1,7 @@
 # Newspaper_Classification
 Thus repository contains the newspaper classification project which uses a variety of deep learning techniques for the task at hand
 
-##Types of newspapers :
+## Types of newspapers :
 Currently, types of newspapers includes:
 * Sport - Short form: sp 
 * Education - Short form: 
@@ -10,7 +10,7 @@ Currently, types of newspapers includes:
 * Entertainment and Celebrities - Short form: ec
 * Science and Technology - Short form: st 
 
-##Preprocessing order:
+## Preprocessing order:
 1. The process of preprocessing data will be like so:
 2. Scrape data. ( includes: scraping links, scraping data, remove duplicates)
 3. Lowercase data.
@@ -24,10 +24,10 @@ Currently, types of newspapers includes:
 11. Normalize white space
 12. Check for noise words (create a vocabulary list, check for weird words)
 
-##Train-Valid-Test splits:
+## Train-Valid-Test splits:
 We used a 8:1:1 ratio. It is more ideal if we use a 8:2 Train:Valid ratio and create a new set of test data separately to better validate data.
 
-##Types of models used.
+## Types of models used.
 Fasttext (fasttext)
 LSTM (tensorflow)
 Hierarchical Attention Network (pytorch)
