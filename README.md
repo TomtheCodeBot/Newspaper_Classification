@@ -28,6 +28,10 @@ Currently, types of newspapers includes:
 We used a 8:1:1 ratio. It is more ideal if we use a 8:2 Train:Valid ratio and create a new set of test data separately to better validate data.
 
 ## Types of models used.
-Fasttext (fasttext)
-LSTM (tensorflow)
-Hierarchical Attention Network (pytorch)
+* Fasttext (fasttext)
+* LSTM (tensorflow)
+* Hierarchical Attention Network (pytorch)
+
+## Data.
+
+All data and scraping script for those data can be found here: https://drive.google.com/drive/folders/1Co0kLKFm6yNASg9d-WVqs8hjDNWuASSu?usp=sharing
